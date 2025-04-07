@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  FirstHelloWorldFrameworkApp1
+//  FirstHelloWorldFrameworkApp2
 //
 //  Created by Daryl Cox on 04/07/2025.
 //  Copyright © JustMacApps 2023-2025. All rights reserved.

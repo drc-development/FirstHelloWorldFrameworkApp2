@@ -1,0 +1,15 @@
+{
+  "originHash" : "04d9a8756df2052c85ba3d367593ee990e5470cc99af8cf5dd44bb75dfbdd172",
+  "pins" : [
+    {
+      "identity" : "firsthelloworldframework1",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/drc-development/FirstHelloWorldFramework1.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "5c2eaf291b49f4101042e401b6531ad783344966"
+      }
+    }
+  ],
+  "version" : 3
+}

@@ -1,8 +1,8 @@
-# FirstHelloWorldFrameworkApp1
+# FirstHelloWorldFrameworkApp2
 
-## JustMacApps FirstHelloWorldFrameworkApp1 App
+## JustMacApps FirstHelloWorldFrameworkApp2 App
 
-This is a App to test a 'local' FirstHelloWorldFramework1...
+This is a App to test a 'GitHub' FirstHelloWorldFramework1...
 
 ## Beta
 

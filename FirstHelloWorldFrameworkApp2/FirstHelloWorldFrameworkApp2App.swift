@@ -1,6 +1,6 @@
 //
-//  FirstHelloWorldFrameworkApp1App.swift
-//  FirstHelloWorldFrameworkApp1
+//  FirstHelloWorldFrameworkApp2App.swift
+//  FirstHelloWorldFrameworkApp2
 //
 //  Created by Daryl Cox on 04/07/2025.
 //  Copyright © JustMacApps 2023-2025. All rights reserved.
@@ -10,7 +10,7 @@ import Foundation
 import SwiftUI
 
 @main
-struct FirstHelloWorldFrameworkApp1: App
+struct FirstHelloWorldFrameworkApp2: App
 {
 
     var body: some Scene
@@ -25,4 +25,4 @@ struct FirstHelloWorldFrameworkApp1: App
 
     }   // End of var body: some Scene.
 
-}   // End of struct FirstHelloWorldFrameworkApp1: App.
+}   // End of struct FirstHelloWorldFrameworkApp2: App.
