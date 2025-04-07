@@ -24,21 +24,37 @@ struct ContentView: View
 
         VStack(spacing: 20)
         {
+            
+            Spacer()
 
             Text("Swift 5 Hello Framework Demo")
                 .font(.title)
                 .fontWeight(.bold)
             
-            Text(sCurrentGreeting)
-                .font(.title2)
-                .padding()
-                .background(Color.yellow.opacity(0.3))
-                .cornerRadius(10)
+            Text("")
+            
+            HStack
+            {
+                
+                Text(">>> ")
+                
+                Text(sCurrentGreeting)
+
+                    .background(Color.yellow.opacity(0.3))
+                    .cornerRadius(10)
+                
+                Text(" <<<")
+                
+            }
+            .font(.title)
+            .padding()
+             
+            Text("")
             
             HStack
             {
 
-                Button("Basic Hello")
+                Button("SAY: 'Basic Hello'")
                 {
 
                     sCurrentGreeting = firstHelloWorldFramework1.sayHello()
@@ -46,7 +62,7 @@ struct ContentView: View
                 }
                 .buttonStyle(.bordered)
                 
-                Button("Hello John")
+                Button("SAY: 'Hello John'")
                 {
 
                     sCurrentGreeting = firstHelloWorldFramework1.sayHelloTo(to:"John")
@@ -54,7 +70,7 @@ struct ContentView: View
                 }
                 .buttonStyle(.bordered)
                 
-                Button("Fancy Hello")
+                Button("SAY: A 'fancy' Hello")
                 {
               
                     Task
@@ -109,6 +125,30 @@ struct ContentView: View
         //  .frame(height: 200)
         //  .background(Color.gray.opacity(0.1))
         //  .cornerRadius(10)
+
+        //  Spacer()
+
+            Text("\(JmXcodeBuildSettings.jmAppDisplayName)")
+                .bold()
+            Text("")
+            Text("Application Category:")
+                .bold()
+                .italic()
+            Text("\(JmXcodeBuildSettings.jmAppCategory)")
+            Text("")
+        //  Spacer(minLength:2)
+            Text("\(JmXcodeBuildSettings.jmAppVersionAndBuildNumber)")     // <=== Version...
+                .italic()
+            Text("")
+        //  Spacer(minLength:4)
+            Text("\(JmXcodeBuildSettings.jmAppCopyright)")
+                .italic()
+
+        //  Spacer()
+            
+            Divider()
+
+            Spacer()
 
         }
         .padding()
