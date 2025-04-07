@@ -25,7 +25,7 @@ struct ContentView: View
         VStack(spacing: 20)
         {
 
-            Text("Swift 6 Hello Framework Demo")
+            Text("Swift 5 Hello Framework Demo")
                 .font(.title)
                 .fontWeight(.bold)
             
@@ -49,7 +49,7 @@ struct ContentView: View
                 Button("Hello John")
                 {
 
-                    sCurrentGreeting = firstHelloWorldFramework1.sayHelloTo(name:"John")
+                    sCurrentGreeting = firstHelloWorldFramework1.sayHelloTo(to:"John")
 
                 }
                 .buttonStyle(.bordered)

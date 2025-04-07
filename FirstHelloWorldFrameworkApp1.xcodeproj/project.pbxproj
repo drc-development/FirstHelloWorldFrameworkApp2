@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		F0197EE52DA4170F0008AF55 /* FirstHelloWorldFramework1 in Frameworks */ = {isa = PBXBuildFile; productRef = F0197EE42DA4170F0008AF55 /* FirstHelloWorldFramework1 */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		F0197EAF2DA404190008AF55 /* FirstHelloWorldFrameworkApp1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstHelloWorldFrameworkApp1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -36,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0197EE52DA4170F0008AF55 /* FirstHelloWorldFramework1 in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,7 @@
 			);
 			name = FirstHelloWorldFrameworkApp1;
 			packageProductDependencies = (
+				F0197EE42DA4170F0008AF55 /* FirstHelloWorldFramework1 */,
 			);
 			productName = FirstHelloWorldFrameworkApp1;
 			productReference = F0197EAF2DA404190008AF55 /* FirstHelloWorldFrameworkApp1.app */;
@@ -108,6 +114,7 @@
 			mainGroup = F0197EA62DA404190008AF55;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
+				F0197EE32DA4170F0008AF55 /* XCLocalSwiftPackageReference "../../FirstHelloWorldFramework1/FirstHelloWorldFramework1" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = F0197EB02DA404190008AF55 /* Products */;
@@ -364,6 +371,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		F0197EE32DA4170F0008AF55 /* XCLocalSwiftPackageReference "../../FirstHelloWorldFramework1/FirstHelloWorldFramework1" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../FirstHelloWorldFramework1/FirstHelloWorldFramework1;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F0197EE42DA4170F0008AF55 /* FirstHelloWorldFramework1 */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirstHelloWorldFramework1;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F0197EA72DA404190008AF55 /* Project object */;
 }
