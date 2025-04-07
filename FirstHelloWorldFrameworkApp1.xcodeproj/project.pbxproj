@@ -108,7 +108,6 @@
 			mainGroup = F0197EA62DA404190008AF55;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				F0197EBE2DA40A160008AF55 /* XCLocalSwiftPackageReference "../../FirstHelloWorldFramework1/FirstHelloWorldFramework1" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = F0197EB02DA404190008AF55 /* Products */;
@@ -365,13 +364,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCLocalSwiftPackageReference section */
-		F0197EBE2DA40A160008AF55 /* XCLocalSwiftPackageReference "../../FirstHelloWorldFramework1/FirstHelloWorldFramework1" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = ../../FirstHelloWorldFramework1/FirstHelloWorldFramework1;
-		};
-/* End XCLocalSwiftPackageReference section */
 	};
 	rootObject = F0197EA72DA404190008AF55 /* Project object */;
 }
